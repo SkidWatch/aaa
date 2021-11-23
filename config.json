@@ -1,0 +1,42 @@
+{
+  "general": {
+    "prefix": "!",
+    "activity": "WHAT",
+    "activity_type": "PLAYING",
+    "threshold_period_in_minutes": 2,
+    "delete_channels_threshold": 2,
+    "add_channels_threshold": 2,
+    "ban_threshold": 2
+  },
+  "credentials": {
+    "token": "",
+    "spotify_client_id": "d03a1bf0c699461c85c4113147c16d32",
+    "spotify_client_secret": "fd193229b27e48cfaa0f730977221e3e"
+  },
+  "messages": {
+    "playusage": "Usage: %cmd% <Song Link/Search Query>",
+    "volusage": "Usage: %cmd% <Volume>",
+    "user_not_in_vc": "Please join a voice chat to play music.",
+    "no_music_playing": "There's no music playing currently.",
+    "skipped": "Skipped the song successfully!",
+    "volume": "Changed volume to: %vol%",
+    "shuffled": "Shuffled successfully!",
+    "paused": "Paused the music successfully!",
+    "resumed": "Resumed the music successfully!",
+    "nowplaying": "Now playing: %song%",
+    "loop": "Toggled looping for the current song successfully!",
+    "loopqueue": "Toggled looping for the current queue successfully!",
+    "seek": "Seeked to %point% seconds successfully!",
+    "mute_message": "Muted @member Successfully! ",
+    "temp_mute_message": "Muted @member Successfully for @time! ",
+    "mute_nomember_error": "Couldn't find the user to mute or its not specified.",
+    "no_perms": "You don't have permissions to use this command.",
+    "playing": "Playing %song%!",
+    "added_to_queue": "Added %song% to queue!",
+    "left": "Left the channel successfully!",
+    "banned": "%exec% just banned %member%\n that's their %num% time within the threshold.",
+    "channelcreated": "%exec% just created the channel %name%\n that's their %num% time within the threshold.",
+    "channelremoved": "%exec% just removed the channel %name%\n that's their %num% time within the threshold.",
+    "threshold_reached": "%exec% reached the threshold for %type%! removing their roles..."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "discord-player": "^5.1.0",
+    "discord.js": "^13.1.0",
+    "ffmpeg-static": "^4.4.0",
+    "libsodium-wrappers": "^0.7.9",
+    "ms": "^3.0.0-canary.1",
+    "opusscript": "^0.0.8"
+  },
+  "name": "nomchompsky",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Byoe",
+  "license": "ISC",
+  "description": ""
+}
